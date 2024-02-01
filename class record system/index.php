@@ -1,5 +1,5 @@
 <?php
-    $connection = mysqli_connect("localhost","root","","class");
+    $connection = mysqli_connect("localhost","dfoiwidm_classrecord","miguelmalayan","dfoiwidm_classrecord");
     session_start();
    
     if(isset($_POST['delete_btn']))
