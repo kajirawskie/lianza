@@ -1,5 +1,7 @@
 <?php
-    $connection = mysqli_connect("localhost","root","","class");
+    $connection = mysqli_connect("localhost","dfoiwidm_classrecord","miguelmalayan","dfoiwidm_classrecord");
+
+
     session_start();
     $query = "SELECT * FROM auth  inner JOIN
     user  on auth.id=user.user_id where auth.`user`='".$_SESSION['user']."'";
