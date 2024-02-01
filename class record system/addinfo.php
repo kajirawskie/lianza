@@ -1,5 +1,6 @@
 <?php
-$connection = mysqli_connect("localhost","root","","class");
+$connection = mysqli_connect("localhost","dfoiwidm_classrecord","miguelmalayan","dfoiwidm_classrecord");
+
 
 if(isset($_POST['add']))
 {
